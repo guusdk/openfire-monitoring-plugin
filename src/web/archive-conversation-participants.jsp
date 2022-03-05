@@ -63,8 +63,6 @@
 <meta name="decorator" content="none"/>
 </head>
 <body>
-<script type="text/javascript" language="javascript" src="scripts/tooltips/domTT.js"></script>
-<script type="text/javascript" language="javascript" src="scripts/tooltips/domLib.js"></script>
 <style type="text/css">
 #lightbox{
     top: 20%;
