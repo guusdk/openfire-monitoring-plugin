@@ -16,7 +16,7 @@ jobs:
 
     steps:
       # Checkout Repo
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
 
       # Create a variable with this plugin's name
       - id: get-id
@@ -108,7 +108,7 @@ jobs:
         matrix: *global_matrix
     needs: [ build, test ]
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
 
       - name: Download the built plugin
         uses: actions/download-artifact@v4
